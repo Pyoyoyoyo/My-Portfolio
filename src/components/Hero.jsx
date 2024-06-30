@@ -39,8 +39,8 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 px-8">
-          <div className="flex items-center justify-center">
+        <div className="w-full lg:w-1/2 lg:px-8">
+          <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{
@@ -50,7 +50,7 @@ const Hero = () => {
               }}
               src={profilePic}
               alt="Sodoo's Profile Picture"
-              className="rounded-full"
+              className="rounded"
             />
           </div>
         </div>
